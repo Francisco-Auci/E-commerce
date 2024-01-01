@@ -1,8 +1,15 @@
-# React + Vite
+# E-Commerce de Ropa con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de e-commerce de ropa desarrollado utilizando React, una popular biblioteca de JavaScript para la construcción de interfaces de usuario. En este proyecto, los usuarios pueden navegar por una variedad de prendas de vestir, agregar productos a su carrito de compras y realizar pedidos. 
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Catálogo de productos de ropa con imágenes, descripciones y precios.
+- Carrito de compras que permite agregar y eliminar productos.
+- Proceso de pago simulado (sin funcionalidad real de pago).
+
+## Tecnologías utilizadas
+
+- React: Biblioteca principal para la construcción de la interfaz de usuario.
+- React Router: Para gestionar las rutas y la navegación dentro de la aplicación.
+- Bootstrap, Bootstrap-React, Swiper: Para la estilización de la interfaz de la pagina.
