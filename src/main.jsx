@@ -16,10 +16,10 @@ import Home from './home/Home.jsx';
 import Shop from './shop/Shop.jsx';
 import SingleProducts from './shop/SingleProducts.jsx';
 import CartPage from './shop/CartPage.jsx';
-
-
-
-
+import AuthProvider from './contexts/AuthProvider.jsx';
+import PrivateRoute from './PrivateRoute/PrivateRoute.jsx';
+import Login from './components/Login.jsx';
+import Singup from './components/Singup.jsx';
 
 const router = createBrowserRouter([
   {
@@ -40,14 +40,22 @@ const router = createBrowserRouter([
       },
       {
         path: "/cart-page",
-        element: <CartPage />
+        element: <PrivateRoute><CartPage /></PrivateRoute>
       },
-    ]
+    ],
   },
+  {
+    path: "/login",
+    element: <Login/>
+  },
+  {
+    path: "sing-up",
+    element: <Singup/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- 
-     <RouterProvider router={router} />
-  
+  <AuthProvider>
+    <RouterProvider router={router}/>
+  </AuthProvider>
 )
