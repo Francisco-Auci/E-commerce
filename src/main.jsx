@@ -20,6 +20,7 @@ import AuthProvider from './contexts/AuthProvider.jsx';
 import PrivateRoute from './PrivateRoute/PrivateRoute.jsx';
 import Login from './components/Login.jsx';
 import Singup from './components/Singup.jsx';
+import LoginDemo from './components/LoginDemo.jsx';
 
 const router = createBrowserRouter([
   {

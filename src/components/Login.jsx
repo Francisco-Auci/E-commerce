@@ -100,7 +100,7 @@ const Login = () => {
                                 <a href='/' className='linkedin'><i className='icofont-linkedin'></i></a>
                             </li>
                             <li>
-                                <a href='/' className='instagram'><i className='icofont-linkedin'></i></a>
+                                <a href='/' className='instagram'><i className='icofont-instagram'></i></a>
                             </li>
                         </ul>
                     </div>

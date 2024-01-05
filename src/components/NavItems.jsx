@@ -9,6 +9,7 @@ const NavItems = () => {
     const [headerFixed, setHeaderFixed] = useState(false)
 
     const {user} = useContext(AuthContext)
+    //console.log(user);
 
     window.addEventListener("scroll", () =>{
         if(window.scrollY > 200){
